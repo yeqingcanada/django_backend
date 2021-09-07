@@ -84,7 +84,9 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'testauth.wsgi.application'
+# WSGI_APPLICATION = 'testauth.wsgi.application'
+WSGI_APPLICATION = 'https://djangobackend.azurewebsites.net'
+
 
 
 # Database
